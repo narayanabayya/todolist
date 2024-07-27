@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.textBox{
+  border: 1px solid green;
+  outline: none;
+  padding: 10px;
+}
+.addbtn{
+  border: 1px ridge green;
+  background-color: lightgreen;
+  padding: 9px;
+  color: green;
+  font-size: 17px;
+}
+.text {
+  color: green;
+}
+
+.dltbtn{
+  color: red;
+  border:2px solid red;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 5px;
+  transform: translateY(-5px);
+  cursor: pointer;
+  border-radius: 5px  ;
+} 
