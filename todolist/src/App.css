@@ -12,19 +12,33 @@
   background-color: lightgreen;
   padding: 9px;
   color: green;
-  font-size: 17px;
+  font-size: 16px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.text-center h2{
+  display: flex;
+  flex-grow: 100;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .text {
   color: green;
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  min-width: 50%;
+  flex:1;
+  margin: 10px;
 }
 
 .dltbtn{
   color: red;
-  border:2px solid red;
+  border: none;
   font-size: 17px;
   background-color: transparent;
   padding: 5px;
-  transform: translateY(-5px);
   cursor: pointer;
   border-radius: 5px  ;
 } 

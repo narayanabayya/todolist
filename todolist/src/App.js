@@ -1,6 +1,8 @@
 
 import './App.css';
 import { useState } from 'react';
+import { FaTrash } from "react-icons/fa";
+
 function App() {
   const [data, setData] = useState("");
   const [todo, setTodo] = useState([]);
@@ -28,9 +30,9 @@ function App() {
         />
         <button type='submit' className='addbtn'>Add</button>
       </form>
-      <div>
+      <div className='text-center'>
         <h2>{todo.map((key, index) => <div className='text'>
-          {index + 1}. {key} < button onClick={() => handleDelete(index)} className='dltbtn' >delete</button>
+          {index + 1}. {key} < button onClick={() => handleDelete(index)} className='dltbtn' ><FaTrash /></button>
           </div>)}</h2>
       </div >
     </div >
